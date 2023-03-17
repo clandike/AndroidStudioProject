@@ -1,7 +1,10 @@
 package com.example.myfirstapp
 
-data class Figure(var width: Int, var height: Int) {
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 
+@Parcelize
+data class Figure(var name: String, var width: Int, var height: Int) : Parcelable {
     var area: Int = this.width * this.height
         private set
 }
