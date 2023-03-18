@@ -32,10 +32,6 @@ class SecondActivity : AppCompatActivity() {
                 textView.text = "This is Jack. He is very playful. Jack really likes to swim in water bodies. In fact, he is a very good swimmer and has his own pond."
                 image3.visibility = android.view.View.VISIBLE
             }
-            //val figure = intent.getParcelableExtra<Figure>(MainActivity.KEY_FIGURE)
-
-            //val text1 = intent.getStringExtra(MainActivity.KEY_TEXT1)
-            //binding.textView.text = figure?.name.toString()
         }
     }
 }
